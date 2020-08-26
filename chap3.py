@@ -1,13 +1,13 @@
 '''
 Write a program that simulates a fortune cookie. The program
 should display one of five unique fortunes, at random, each
-time it’s run.
+time it's run.
 '''
 import random
 fortunes = ["Don't be afraid. Be focused.",
             'Children really brighten up a household', 'Congratulations! today is your day', 'Emotional empathy is what motivates us to help others']
 random_fortune_index = random.randrange(len(fortunes))
-# print(fortunes[random_fortune_index])
+print(fortunes[random_fortune_index])
 
 '''
 Write a program that flips a coin 100 times and then tells you
